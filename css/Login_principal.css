@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Container */
+.login-container {
+    background-color: #ffffff;
+    padding: 30px 30px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Logo Container */
+.logo-container {
+    margin-bottom: 15px;
+}
+
+.logo {
+    max-width: 80px;
+    height: auto;
+}
+
+/* Heading */
+h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+/* Input Styles */
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px; /* Tamaño estándar del botón de Login */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: calc(100% - 20px);
+    margin: 8px 0;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+/* Link Buttons - Smaller than the login button */
+.link-buttons {
+    margin-top: 15px;
+}
+
+.link-buttons li {
+    list-style-type: none;
+    margin: 8px 0;
+}
+
+.link-buttons a {
+    display: block;
+    padding: 6px 10px; /* Tamaño reducido de los botones de enlace */
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px; /* Fuente más pequeña */
+    transition: background-color 0.3s;
+    max-width: 200px; /* Limita el ancho de los botones */
+    margin: 0 auto; /* Centra los botones más pequeños */
+}
+
+.link-buttons a:hover {
+    background-color: #0066cc;
+}
